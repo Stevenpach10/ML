@@ -1,0 +1,125 @@
+2021-05-09 10:33:05,278 INFO    MainThread:14540 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-09 10:33:05,278 INFO    MainThread:14540 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-09 10:33:05,278 INFO    MainThread:14540 [wandb_init.py:_log_setup():336] Logging user logs to c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_103305-3bh2jmhm\logs\debug.log
+2021-05-09 10:33:05,279 INFO    MainThread:14540 [wandb_init.py:_log_setup():337] Logging internal logs to c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_103305-3bh2jmhm\logs\debug-internal.log
+2021-05-09 10:33:05,279 INFO    MainThread:14540 [wandb_init.py:init():369] calling init triggers
+2021-05-09 10:33:05,280 INFO    MainThread:14540 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 600, 'learningRate': 0.0001, 'batchSize': 128, 'inputSize': 256, 'fc_size_1': 256, 'fc_size_2': 128, 'fc_size_3': 64, 'fc_size_4': 32, 'fc_size_5': 16, 'fc_size_6': 8, 'outputSize': 4, 'classes': ['COVID', 'Lung Opacity', 'Normal', 'Viral Pneumonia'], 'classesLen': 4, 'upSampling': True}
+2021-05-09 10:33:05,280 INFO    MainThread:14540 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 2t9lldmm
+2021-05-09 10:33:05,282 INFO    MainThread:14540 [wandb_run.py:finish():1197] finishing run tecai/MLP/2t9lldmm
+2021-05-09 10:33:05,284 ERROR   MainThread:14540 [jupyter.py:save_history():312] Run pip install nbformat to save notebook history
+2021-05-09 10:33:05,284 INFO    MainThread:14540 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-05-09 10:33:05,284 INFO    MainThread:14540 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-05-09 10:33:05,284 INFO    MainThread:14540 [wandb_run.py:_atexit_cleanup():1524] got exitcode: 0
+2021-05-09 10:33:05,285 INFO    MainThread:14540 [wandb_run.py:_restore():1496] restore
+2021-05-09 10:33:05,582 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1099
+  total_bytes: 1099
+}
+
+2021-05-09 10:33:05,873 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 1099
+  total_bytes: 1099
+}
+
+2021-05-09 10:33:05,992 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 1099
+  total_bytes: 3516
+}
+
+2021-05-09 10:33:06,293 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1099
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:06,406 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1099
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:06,515 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3518
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:06,627 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3518
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:06,737 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3518
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:06,848 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3518
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:06,959 INFO    MainThread:14540 [wandb_run.py:_wait_for_finish():1646] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 3518
+  total_bytes: 3518
+}
+
+2021-05-09 10:33:08,104 INFO    MainThread:14540 [wandb_run.py:_show_files():1868] logging synced files
+2021-05-09 10:33:08,113 INFO    MainThread:14540 [wandb_init.py:init():418] starting backend
+2021-05-09 10:33:08,113 INFO    MainThread:14540 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2021-05-09 10:33:08,119 INFO    MainThread:14540 [backend.py:ensure_launched():123] starting backend process...
+2021-05-09 10:33:08,227 INFO    MainThread:14540 [backend.py:ensure_launched():127] started backend process with pid: 15880
+2021-05-09 10:33:08,228 INFO    MainThread:14540 [wandb_init.py:init():423] backend started and connected
+2021-05-09 10:33:08,231 INFO    MainThread:14540 [wandb_init.py:init():465] updated telemetry
+2021-05-09 10:33:08,232 INFO    MainThread:14540 [wandb_init.py:init():484] communicating current version
+2021-05-09 10:33:09,544 INFO    MainThread:14540 [wandb_init.py:init():489] got version response upgrade_message: "wandb version 0.10.30 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-05-09 10:33:09,545 INFO    MainThread:14540 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-09 10:33:09,956 INFO    MainThread:14540 [wandb_init.py:init():522] starting run threads in backend
+2021-05-09 10:33:11,028 INFO    MainThread:14540 [wandb_run.py:_console_start():1554] atexit reg
+2021-05-09 10:33:11,029 INFO    MainThread:14540 [wandb_run.py:_redirect():1401] redirect: SettingsConsole.WRAP
+2021-05-09 10:33:11,029 INFO    MainThread:14540 [wandb_run.py:_redirect():1444] Wrapping output streams.
+2021-05-09 10:33:11,029 INFO    MainThread:14540 [wandb_run.py:_redirect():1468] Redirects installed.
+2021-05-09 10:33:11,029 INFO    MainThread:14540 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-09 10:33:11,030 INFO    MainThread:14540 [wandb_watch.py:watch():39] Watching
+2021-05-09 10:33:46,021 INFO    MainThread:14540 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-09 10:33:46,021 INFO    MainThread:14540 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-09 10:33:46,021 INFO    MainThread:14540 [wandb_init.py:_log_setup():336] Logging user logs to c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_103346-5rtpwi6c\logs\debug.log
+2021-05-09 10:33:46,021 INFO    MainThread:14540 [wandb_init.py:_log_setup():337] Logging internal logs to c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_103346-5rtpwi6c\logs\debug-internal.log
+2021-05-09 10:33:46,022 INFO    MainThread:14540 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000027BE9B3DEB0>
+2021-05-09 10:33:46,023 INFO    MainThread:14540 [wandb_init.py:init():369] calling init triggers
+2021-05-09 10:33:46,023 INFO    MainThread:14540 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 600, 'learningRate': 0.0001, 'batchSize': 128, 'inputSize': 256, 'fc_size_1': 256, 'fc_size_2': 128, 'fc_size_3': 64, 'fc_size_4': 32, 'fc_size_5': 16, 'fc_size_6': 8, 'outputSize': 4, 'classes': ['COVID', 'Lung Opacity', 'Normal', 'Viral Pneumonia'], 'classesLen': 4, 'upSampling': True}
+2021-05-09 10:33:46,023 INFO    MainThread:14540 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 3bh2jmhm
+2021-05-09 10:33:46,025 INFO    MainThread:14540 [wandb_run.py:finish():1197] finishing run tecai/MLP/3bh2jmhm
