@@ -1,0 +1,446 @@
+2021-05-10 14:09:31,364 INFO    MainThread:7784 [internal.py:wandb_internal():88] W&B internal server running at pid: 7784, started at: 2021-05-10 14:09:31.355481
+2021-05-10 14:09:31,369 INFO    WriterThread:7784 [datastore.py:open_for_write():77] open: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\run-3ixszmdu.wandb
+2021-05-10 14:09:31,370 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: check_version
+2021-05-10 14:09:31,383 DEBUG   SenderThread:7784 [sender.py:send():176] send: header
+2021-05-10 14:09:31,383 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: check_version
+2021-05-10 14:09:32,259 DEBUG   SenderThread:7784 [sender.py:send():176] send: run
+2021-05-10 14:09:32,911 INFO    SenderThread:7784 [dir_watcher.py:__init__():168] watching files in: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files
+2021-05-10 14:09:32,911 INFO    SenderThread:7784 [sender.py:_start_run_threads():696] run started: 3ixszmdu with start time 1620677369
+2021-05-10 14:09:32,911 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:32,912 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:32,914 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: run_start
+2021-05-10 14:09:32,928 DEBUG   HandlerThread:7784 [meta.py:__init__():39] meta init
+2021-05-10 14:09:32,928 DEBUG   HandlerThread:7784 [meta.py:__init__():53] meta init done
+2021-05-10 14:09:32,929 DEBUG   HandlerThread:7784 [meta.py:probe():210] probe
+2021-05-10 14:09:32,936 DEBUG   HandlerThread:7784 [meta.py:_setup_git():200] setup git
+2021-05-10 14:09:33,087 DEBUG   HandlerThread:7784 [meta.py:_setup_git():207] setup git done
+2021-05-10 14:09:33,087 DEBUG   HandlerThread:7784 [meta.py:_save_pip():57] save pip
+2021-05-10 14:09:33,088 DEBUG   HandlerThread:7784 [meta.py:_save_pip():71] save pip done
+2021-05-10 14:09:33,088 DEBUG   HandlerThread:7784 [meta.py:probe():252] probe done
+2021-05-10 14:09:33,163 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:09:33,163 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-10 14:09:33,165 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:09:33,165 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:09:33,616 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:09:33,616 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\graph\graph_0_summary_a67e3869.graph.json with policy now
+2021-05-10 14:09:33,617 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,618 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,619 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,619 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,620 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,620 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,621 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,622 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,622 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,623 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,623 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,624 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,624 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,625 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,626 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,626 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,627 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,628 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,628 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,634 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,634 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,635 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,635 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,636 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,636 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,637 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,638 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:33,638 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:33,933 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\graph\graph_0_summary_a67e3869.graph.json
+2021-05-10 14:09:33,934 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:09:33,934 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\requirements.txt
+2021-05-10 14:09:33,935 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\output.log
+2021-05-10 14:09:33,936 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-metadata.json
+2021-05-10 14:09:33,936 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media
+2021-05-10 14:09:33,936 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\graph
+2021-05-10 14:09:34,348 INFO    Thread-17 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\1dayzpl2-wandb-metadata.json
+2021-05-10 14:09:34,811 INFO    Thread-18 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\2ycwz2i4-media/graph/graph_0_summary_a67e3869.graph.json
+2021-05-10 14:09:37,578 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:09:38,231 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:09:38,231 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:09:38,984 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_0_f03b35c6.table.json
+2021-05-10 14:09:38,985 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media
+2021-05-10 14:09:38,985 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:09:40,359 INFO    Thread-20 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\56\87399ac3ba433b1cdc6bfee6962acd
+2021-05-10 14:09:42,845 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:09:42,846 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_0_f03b35c6.table.json with policy now
+2021-05-10 14:09:43,032 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:09:43,224 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:09:43,225 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:43,228 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:43,235 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:09:43,703 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:09:43,703 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:09:43,987 INFO    Thread-21 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\2k5ji9h6-media/table/confusion_matrix_0_f03b35c6.table.json
+2021-05-10 14:09:44,037 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:09:44,037 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_1_7b806ba2.table.json
+2021-05-10 14:09:44,038 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:09:45,610 INFO    Thread-23 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\3a\e4ab049981affdd76980a265a683d9
+2021-05-10 14:09:47,939 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:09:47,939 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_1_7b806ba2.table.json with policy now
+2021-05-10 14:09:48,067 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:09:48,373 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:09:48,373 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:48,379 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:48,379 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:09:48,380 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:09:48,381 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:09:48,625 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:09:48,625 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:09:49,068 INFO    Thread-24 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\265ym7yw-media/table/confusion_matrix_1_7b806ba2.table.json
+2021-05-10 14:09:49,081 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:09:53,830 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:09:54,519 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:09:54,519 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:09:55,148 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:09:55,149 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_3_8b0c49ab.table.json
+2021-05-10 14:09:55,150 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:09:57,405 INFO    Thread-26 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\40\fbe63d8166348c9e18c51e793fae82
+2021-05-10 14:09:59,271 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:09:59,272 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_3_8b0c49ab.table.json with policy now
+2021-05-10 14:10:00,143 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:10:00,149 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:10:00,157 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:10:00,158 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:10:00,224 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:10:00,435 INFO    Thread-27 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\1sgspjum-media/table/confusion_matrix_3_8b0c49ab.table.json
+2021-05-10 14:10:00,620 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:10:00,620 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:10:01,237 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_4_7b806ba2.table.json
+2021-05-10 14:10:01,238 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:10:02,523 INFO    Thread-29 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\3a\e4ab049981affdd76980a265a683d9
+2021-05-10 14:10:04,090 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:10:04,521 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:10:04,521 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_4_7b806ba2.table.json with policy now
+2021-05-10 14:10:04,524 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:10:04,977 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:04,977 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:10:04,979 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:10:04,983 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:10:04,984 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:10:04,984 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:10:04,988 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:10:05,288 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:10:05,288 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:10:05,593 INFO    Thread-30 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\n18kgqzv-media/table/confusion_matrix_4_7b806ba2.table.json
+2021-05-10 14:10:09,820 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:10:10,310 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:10:10,310 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:10:10,351 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_6_e2d996f2.table.json
+2021-05-10 14:10:10,353 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:10:13,910 INFO    Thread-32 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\e4\0a57171666a0d2cbb8c4ddef30a472
+2021-05-10 14:10:16,110 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:10:16,110 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_6_e2d996f2.table.json with policy now
+2021-05-10 14:10:16,411 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:10:16,507 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:10:16,507 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:10:16,513 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:10:16,515 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:10:16,996 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:10:16,997 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:10:17,097 INFO    Thread-33 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\tpvsbe2o-media/table/confusion_matrix_6_e2d996f2.table.json
+2021-05-10 14:10:17,416 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:10:17,417 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_7_7b806ba2.table.json
+2021-05-10 14:10:17,418 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:10:19,050 INFO    Thread-35 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\3a\e4ab049981affdd76980a265a683d9
+2021-05-10 14:10:19,996 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:10:21,084 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:10:21,085 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_7_7b806ba2.table.json with policy now
+2021-05-10 14:10:21,086 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:10:21,466 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:10:21,718 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:10:21,719 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:10:21,729 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:10:21,730 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:10:21,731 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:10:21,734 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:10:22,225 INFO    Thread-36 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\2h1n8niu-media/table/confusion_matrix_7_7b806ba2.table.json
+2021-05-10 14:10:22,475 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:10:26,827 DEBUG   SenderThread:7784 [sender.py:send():176] send: config
+2021-05-10 14:10:27,550 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:10:27,609 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:10:28,555 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\config.yaml
+2021-05-10 14:10:28,556 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table\confusion_matrix_9_4bbd0373.table.json
+2021-05-10 14:10:28,557 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\media\table
+2021-05-10 14:10:29,789 INFO    Thread-38 :7784 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\a6\58c5cace6fa3444229cde511d832db
+2021-05-10 14:10:31,635 DEBUG   SenderThread:7784 [sender.py:send():176] send: files
+2021-05-10 14:10:31,635 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file media\table\confusion_matrix_9_4bbd0373.table.json with policy now
+2021-05-10 14:10:31,744 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:31,744 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:31,808 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:31,808 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:31,826 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:31,827 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:31,827 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:31,946 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:31,946 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:31,952 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:31,952 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:31,969 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:31,970 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:31,983 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:31,988 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:32,115 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:32,117 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:32,117 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:33,775 INFO    Thread-39 :7784 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmpg1t4bxnjwandb\3qoitcz9-media/table/confusion_matrix_9_4bbd0373.table.json
+2021-05-10 14:10:36,450 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:10:36,451 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:10:44,007 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:44,008 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:44,065 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:44,065 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:44,180 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:44,181 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:44,186 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:44,189 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:44,304 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:44,305 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:49,265 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:49,265 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:49,278 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:49,283 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:49,406 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:49,406 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:49,412 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:49,414 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:49,533 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:49,534 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:50,572 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:50,572 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:50,584 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:50,584 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:50,628 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:50,628 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:50,641 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:50,641 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:50,673 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:50,674 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:50,849 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:50,849 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:50,862 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:50,866 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:50,992 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:51,928 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:10:51,928 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:10:54,301 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:54,301 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:54,333 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:54,334 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:54,456 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:54,572 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:54,572 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:54,601 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:54,601 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:54,620 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:55,417 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:55,417 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:55,431 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:55,431 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:55,548 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:10:55,548 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:10:55,556 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:10:55,559 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:10:55,671 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:10:55,672 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:04,609 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:04,609 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:04,645 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:04,645 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:04,746 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:04,998 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:04,998 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:05,014 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:05,017 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:05,137 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:05,138 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:05,143 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:05,144 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:05,157 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:05,158 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:07,394 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:11:07,395 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:11:10,993 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:10,993 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:11,024 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:11,024 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:11,134 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:11,928 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:11,929 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:11,942 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:11,946 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:12,067 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:12,068 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:12,073 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:12,076 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:12,193 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:12,194 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:22,851 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:11:22,851 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:11:25,436 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:25,437 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:25,452 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:25,452 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:25,578 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:27,108 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:27,108 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:27,124 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:27,128 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:27,250 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:31,555 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:31,556 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:31,571 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:31,576 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:31,711 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:31,711 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:31,766 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:31,767 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:31,787 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:31,787 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:31,802 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:31,802 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:31,814 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:31,814 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:31,831 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:31,836 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:31,955 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:31,955 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:31,971 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:31,972 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:32,102 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,102 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:32,103 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:32,122 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:32,123 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:32,247 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:32,247 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:32,252 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:32,253 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:32,377 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:32,377 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:32,387 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:32,390 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:32,525 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,526 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:32,527 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:32,533 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: pause
+2021-05-10 14:11:32,536 INFO    HandlerThread:7784 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-10 14:11:32,622 ERROR   FileStreamThread:7784 [file_stream.py:_thread_except_body():286] generic exception in filestream thread
+Traceback (most recent call last):
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 282, in _thread_except_body
+    self._thread_body()
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 260, in _thread_body
+    self._send(ready_chunks)
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 322, in _send
+    self._handle_response(
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 295, in _handle_response
+    raise response
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 382, in request_with_retry
+    response.raise_for_status()
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/files/tecai/MLP/3ixszmdu/file_stream
+2021-05-10 14:11:32,658 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,659 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,660 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,661 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,662 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: resume
+2021-05-10 14:11:32,662 INFO    HandlerThread:7784 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-10 14:11:32,671 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,672 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:32,673 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:33,308 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:11:33,308 DEBUG   SenderThread:7784 [sender.py:send():176] send: history
+2021-05-10 14:11:33,313 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:11:33,317 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:11:33,318 DEBUG   SenderThread:7784 [sender.py:send():176] send: telemetry
+2021-05-10 14:11:33,318 DEBUG   SenderThread:7784 [sender.py:send():176] send: exit
+2021-05-10 14:11:33,318 INFO    SenderThread:7784 [sender.py:send_exit():281] handling exit code: 0
+2021-05-10 14:11:33,318 INFO    SenderThread:7784 [sender.py:send_exit():289] send defer
+2021-05-10 14:11:33,318 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:11:33,319 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:11:33,320 INFO    HandlerThread:7784 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-10 14:11:33,320 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:11:33,320 INFO    SenderThread:7784 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-10 14:11:33,320 INFO    SenderThread:7784 [sender.py:send_request_defer():336] send defer: 1
+2021-05-10 14:11:33,321 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:11:33,321 INFO    HandlerThread:7784 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-10 14:11:33,373 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:11:33,373 INFO    SenderThread:7784 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-10 14:11:33,374 INFO    SenderThread:7784 [sender.py:send_request_defer():336] send defer: 2
+2021-05-10 14:11:33,376 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:11:33,376 DEBUG   SenderThread:7784 [sender.py:send():176] send: stats
+2021-05-10 14:11:33,376 INFO    HandlerThread:7784 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-10 14:11:33,377 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:11:33,377 INFO    SenderThread:7784 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-10 14:11:33,377 INFO    SenderThread:7784 [sender.py:send_request_defer():336] send defer: 3
+2021-05-10 14:11:33,378 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:11:33,378 INFO    HandlerThread:7784 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-10 14:11:33,380 DEBUG   SenderThread:7784 [sender.py:send():176] send: summary
+2021-05-10 14:11:33,385 INFO    SenderThread:7784 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:11:33,385 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:11:33,386 INFO    SenderThread:7784 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-10 14:11:33,386 INFO    SenderThread:7784 [sender.py:send_request_defer():336] send defer: 4
+2021-05-10 14:11:33,386 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:11:33,386 INFO    HandlerThread:7784 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-10 14:11:33,387 DEBUG   SenderThread:7784 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:11:33,387 INFO    SenderThread:7784 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-10 14:11:33,422 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:11:33,869 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:11:33,870 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:11:34,317 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\wandb-summary.json
+2021-05-10 14:11:34,317 INFO    Thread-12 :7784 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_140924-3ixszmdu\files\output.log
+2021-05-10 14:11:35,564 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:11:35,564 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:11:38,006 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:11:38,007 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:11:38,007 ERROR   SenderThread:7784 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 133, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\six.py", line 719, in reraise
+    raise value
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 127, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\TEC\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-05-10 14:11:38,538 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:11:43,132 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:11:43,132 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:11:43,662 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:11:48,782 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:11:52,282 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:11:52,282 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:11:53,901 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:11:59,012 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:04,128 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:09,252 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:12,313 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:12:12,313 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:12:14,373 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:19,487 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:24,602 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:29,721 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:34,843 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:39,961 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:45,086 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:48,772 ERROR   SenderThread:7784 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-10 14:12:48,773 ERROR   SenderThread:7784 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-3ixszmdu' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-10 14:12:50,207 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:12:55,324 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:13:00,447 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:13:05,571 DEBUG   HandlerThread:7784 [handler.py:handle_request():121] handle_request: poll_exit
