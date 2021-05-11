@@ -1,0 +1,5 @@
+2021-05-09 11:15:00,389 INFO    MainThread:5724 [internal.py:wandb_internal():88] W&B internal server running at pid: 5724, started at: 2021-05-09 11:15:00.382934
+2021-05-09 11:15:00,392 INFO    WriterThread:5724 [datastore.py:open_for_write():77] open: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111428-10smt1az\run-10smt1az.wandb
+2021-05-09 11:15:00,392 DEBUG   HandlerThread:5724 [handler.py:handle_request():121] handle_request: check_version
+2021-05-09 11:15:00,404 DEBUG   SenderThread:5724 [sender.py:send():176] send: header
+2021-05-09 11:15:00,404 DEBUG   SenderThread:5724 [sender.py:send_request():186] send_request: check_version

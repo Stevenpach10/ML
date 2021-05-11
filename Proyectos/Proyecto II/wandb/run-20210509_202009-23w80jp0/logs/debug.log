@@ -1,0 +1,27 @@
+2021-05-09 20:20:09,316 INFO    MainThread:9820 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-09 20:20:09,316 INFO    MainThread:9820 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-09 20:20:09,317 INFO    MainThread:9820 [wandb_init.py:_log_setup():336] Logging user logs to c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_202009-23w80jp0\logs\debug.log
+2021-05-09 20:20:09,318 INFO    MainThread:9820 [wandb_init.py:_log_setup():337] Logging internal logs to c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_202009-23w80jp0\logs\debug-internal.log
+2021-05-09 20:20:09,319 INFO    MainThread:9820 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000196482DAD60>
+2021-05-09 20:20:09,320 INFO    MainThread:9820 [wandb_init.py:init():369] calling init triggers
+2021-05-09 20:20:09,320 INFO    MainThread:9820 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 1, 'learningRate': 0.0001, 'batchSize': 128, 'inputSize': 256, 'fc_size_1': 256, 'fc_size_2': 128, 'fc_size_3': 64, 'fc_size_4': 32, 'fc_size_5': 16, 'fc_size_6': 8, 'outputSize': 4, 'classes': ['COVID', 'Lung Opacity', 'Normal', 'Viral Pneumonia'], 'classesLen': 4, 'upSampling': True}
+2021-05-09 20:20:09,320 INFO    MainThread:9820 [wandb_init.py:init():418] starting backend
+2021-05-09 20:20:09,320 INFO    MainThread:9820 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-05-09 20:20:09,324 INFO    MainThread:9820 [backend.py:ensure_launched():132] starting backend process...
+2021-05-09 20:20:09,429 INFO    MainThread:9820 [backend.py:ensure_launched():136] started backend process with pid: 6228
+2021-05-09 20:20:09,430 INFO    MainThread:9820 [wandb_init.py:init():423] backend started and connected
+2021-05-09 20:20:09,432 INFO    MainThread:9820 [wandb_init.py:init():465] updated telemetry
+2021-05-09 20:20:09,433 INFO    MainThread:9820 [wandb_init.py:init():484] communicating current version
+2021-05-09 20:20:11,000 INFO    MainThread:9820 [wandb_init.py:init():489] got version response 
+2021-05-09 20:20:11,000 INFO    MainThread:9820 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-09 20:20:11,461 INFO    MainThread:9820 [wandb_init.py:init():522] starting run threads in backend
+2021-05-09 20:20:12,598 INFO    MainThread:9820 [wandb_run.py:_console_start():1565] atexit reg
+2021-05-09 20:20:12,599 INFO    MainThread:9820 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.WRAP
+2021-05-09 20:20:12,599 INFO    MainThread:9820 [wandb_run.py:_redirect():1455] Wrapping output streams.
+2021-05-09 20:20:12,599 INFO    MainThread:9820 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-05-09 20:20:12,599 INFO    MainThread:9820 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-09 20:20:12,600 INFO    MainThread:9820 [wandb_watch.py:watch():39] Watching
+2021-05-09 20:20:16,348 INFO    MainThread:9820 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'key': 'confusion_matrix', 'x-axis': '_step'}} None
+2021-05-09 20:20:19,774 INFO    MainThread:9820 [wandb_run.py:_config_callback():787] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'key': 'confusion_matrix', 'x-axis': '_step'}} None
+2021-05-09 20:20:24,007 INFO    MainThread:9820 [wandb_run.py:finish():1208] finishing run tecai/MLP/23w80jp0

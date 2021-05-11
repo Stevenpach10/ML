@@ -1,0 +1,200 @@
+2021-05-09 11:13:16,926 INFO    MainThread:14736 [internal.py:wandb_internal():88] W&B internal server running at pid: 14736, started at: 2021-05-09 11:13:16.914088
+2021-05-09 11:13:16,929 INFO    WriterThread:14736 [datastore.py:open_for_write():77] open: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\run-60loqspo.wandb
+2021-05-09 11:13:16,930 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: check_version
+2021-05-09 11:13:16,942 DEBUG   SenderThread:14736 [sender.py:send():176] send: header
+2021-05-09 11:13:16,942 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: check_version
+2021-05-09 11:13:17,228 DEBUG   SenderThread:14736 [sender.py:send():176] send: run
+2021-05-09 11:13:17,701 INFO    SenderThread:14736 [dir_watcher.py:__init__():168] watching files in: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files
+2021-05-09 11:13:17,701 INFO    SenderThread:14736 [sender.py:_start_run_threads():696] run started: 60loqspo with start time 1620580395
+2021-05-09 11:13:17,701 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:17,702 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:17,705 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: run_start
+2021-05-09 11:13:18,622 DEBUG   HandlerThread:14736 [meta.py:__init__():39] meta init
+2021-05-09 11:13:18,622 DEBUG   HandlerThread:14736 [meta.py:__init__():53] meta init done
+2021-05-09 11:13:18,622 DEBUG   HandlerThread:14736 [meta.py:probe():210] probe
+2021-05-09 11:13:18,649 DEBUG   HandlerThread:14736 [meta.py:_setup_git():200] setup git
+2021-05-09 11:13:18,718 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:18,770 DEBUG   HandlerThread:14736 [meta.py:_setup_git():207] setup git done
+2021-05-09 11:13:18,770 DEBUG   HandlerThread:14736 [meta.py:_save_pip():57] save pip
+2021-05-09 11:13:18,771 DEBUG   HandlerThread:14736 [meta.py:_save_pip():71] save pip done
+2021-05-09 11:13:18,771 DEBUG   HandlerThread:14736 [meta.py:probe():252] probe done
+2021-05-09 11:13:18,840 DEBUG   SenderThread:14736 [sender.py:send():176] send: files
+2021-05-09 11:13:18,840 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-09 11:13:18,841 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-09 11:13:18,842 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: stop_status
+2021-05-09 11:13:19,117 DEBUG   SenderThread:14736 [sender.py:send():176] send: files
+2021-05-09 11:13:19,117 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file media\graph\graph_0_summary_fa11b1a2.graph.json with policy now
+2021-05-09 11:13:19,118 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:19,119 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:19,611 INFO    Thread-17 :14736 [upload_job.py:push():133] Uploaded file C:\Users\Steven\AppData\Local\Temp\tmph8jgg3riwandb\1lsc0qbq-wandb-metadata.json
+2021-05-09 11:13:19,720 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:19,721 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\requirements.txt
+2021-05-09 11:13:19,721 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\output.log
+2021-05-09 11:13:19,722 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-metadata.json
+2021-05-09 11:13:19,723 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\media\graph\graph_0_summary_fa11b1a2.graph.json
+2021-05-09 11:13:19,723 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\media
+2021-05-09 11:13:19,723 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\media\graph
+2021-05-09 11:13:19,823 INFO    Thread-18 :14736 [upload_job.py:push():133] Uploaded file C:\Users\Steven\AppData\Local\Temp\tmph8jgg3riwandb\2einz6mm-media/graph/graph_0_summary_fa11b1a2.graph.json
+2021-05-09 11:13:22,090 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:22,091 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:22,092 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:22,746 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:24,525 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:24,526 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:24,528 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:24,752 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:27,035 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:27,036 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:27,038 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:27,766 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:29,391 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:29,392 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:29,393 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:29,782 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:32,048 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:32,048 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:32,050 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:32,795 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:34,127 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-09 11:13:34,128 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: stop_status
+2021-05-09 11:13:34,639 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:34,640 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:34,641 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:34,813 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:37,196 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:37,197 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:37,198 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:37,828 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:40,537 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:40,541 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:40,545 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:40,849 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:43,812 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:43,812 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:43,816 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:43,871 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:46,957 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:46,958 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:46,961 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:47,892 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:49,428 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-09 11:13:49,428 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: stop_status
+2021-05-09 11:13:49,696 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:49,697 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:49,702 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:49,897 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:52,432 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:52,433 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:52,437 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:52,924 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:55,489 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:55,490 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:55,494 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:55,947 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:13:55,988 DEBUG   SenderThread:14736 [sender.py:send():176] send: stats
+2021-05-09 11:13:57,945 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:13:57,946 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:13:57,951 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:13:57,964 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:14:01,356 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:14:01,357 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:14:01,363 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:14:02,006 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:14:04,710 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-09 11:14:04,710 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: stop_status
+2021-05-09 11:14:04,960 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:14:04,965 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:14:04,972 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:14:05,046 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:14:08,975 DEBUG   SenderThread:14736 [sender.py:send():176] send: history
+2021-05-09 11:14:08,976 DEBUG   SenderThread:14736 [sender.py:send():176] send: summary
+2021-05-09 11:14:08,987 INFO    SenderThread:14736 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-09 11:14:09,065 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\wandb-summary.json
+2021-05-09 11:14:09,712 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: pause
+2021-05-09 11:14:09,712 INFO    HandlerThread:14736 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-09 11:14:09,822 DEBUG   SenderThread:14736 [sender.py:send():176] send: stats
+2021-05-09 11:14:19,965 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-09 11:14:19,965 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: stop_status
+2021-05-09 11:14:28,389 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: resume
+2021-05-09 11:14:28,389 INFO    HandlerThread:14736 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-09 11:14:28,440 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:14:28,441 DEBUG   SenderThread:14736 [sender.py:send():176] send: telemetry
+2021-05-09 11:14:28,441 DEBUG   SenderThread:14736 [sender.py:send():176] send: exit
+2021-05-09 11:14:28,441 INFO    SenderThread:14736 [sender.py:send_exit():281] handling exit code: 0
+2021-05-09 11:14:28,441 INFO    SenderThread:14736 [sender.py:send_exit():289] send defer
+2021-05-09 11:14:28,442 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: poll_exit
+2021-05-09 11:14:28,444 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: defer
+2021-05-09 11:14:28,444 INFO    HandlerThread:14736 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-09 11:14:28,444 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: defer
+2021-05-09 11:14:28,444 INFO    SenderThread:14736 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-09 11:14:28,444 INFO    SenderThread:14736 [sender.py:send_request_defer():336] send defer: 1
+2021-05-09 11:14:28,447 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: defer
+2021-05-09 11:14:28,447 INFO    HandlerThread:14736 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-09 11:14:28,532 ERROR   FileStreamThread:14736 [file_stream.py:_thread_except_body():286] generic exception in filestream thread
+Traceback (most recent call last):
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 282, in _thread_except_body
+    self._thread_body()
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 260, in _thread_body
+    self._send(ready_chunks)
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 322, in _send
+    self._handle_response(
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 295, in _handle_response
+    raise response
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\file_stream.py", line 382, in request_with_retry
+    response.raise_for_status()
+  File "C:\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/files/tecai/MLP/60loqspo/file_stream
+2021-05-09 11:14:29,274 INFO    Thread-12 :14736 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\Steven\Documents\Github\ML\Proyectos\Proyecto II\wandb\run-20210509_111315-60loqspo\files\output.log
+2021-05-09 11:14:29,312 DEBUG   SenderThread:14736 [sender.py:send_request():186] send_request: defer
+2021-05-09 11:14:29,312 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:14:29,312 INFO    SenderThread:14736 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-09 11:14:29,312 INFO    SenderThread:14736 [sender.py:send_request_defer():336] send defer: 2
+2021-05-09 11:14:29,318 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: defer
+2021-05-09 11:14:29,318 INFO    HandlerThread:14736 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-09 11:14:29,612 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:14:29,612 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:14:31,000 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:14:31,000 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:14:33,672 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:14:33,709 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:14:33,709 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:14:33,709 ERROR   SenderThread:14736 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Python39\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 133, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\Users\Steven\AppData\Roaming\Python\Python39\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\Python39\lib\site-packages\wandb\sdk\internal\internal_api.py", line 127, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Python39\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Python39\lib\site-packages\requests\models.py", line 943, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2021-05-09 11:14:38,162 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:14:38,162 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:14:38,795 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:14:43,906 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:14:46,756 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:14:46,756 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:14:49,015 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:14:54,129 DEBUG   HandlerThread:14736 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-09 11:15:06,627 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:15:06,627 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:15:46,572 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:15:46,572 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:17:04,362 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:17:04,363 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:19:32,273 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:19:32,273 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:23:49,584 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:23:49,585 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2021-05-09 11:29:50,427 ERROR   SenderThread:14736 [internal_api.py:execute():130] 409 response executing GraphQL.
+2021-05-09 11:29:50,427 ERROR   SenderThread:14736 [internal_api.py:execute():131] {"errors":[{"message":"Error 1062: Duplicate entry '301661-60loqspo' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}

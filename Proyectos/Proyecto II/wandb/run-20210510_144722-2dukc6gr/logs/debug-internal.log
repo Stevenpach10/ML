@@ -1,0 +1,281 @@
+2021-05-10 14:47:24,512 INFO    MainThread:5660 [internal.py:wandb_internal():88] W&B internal server running at pid: 5660, started at: 2021-05-10 14:47:24.502931
+2021-05-10 14:47:24,514 INFO    WriterThread:5660 [datastore.py:open_for_write():77] open: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\run-2dukc6gr.wandb
+2021-05-10 14:47:24,515 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: check_version
+2021-05-10 14:47:24,528 DEBUG   SenderThread:5660 [sender.py:send():176] send: header
+2021-05-10 14:47:24,528 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: check_version
+2021-05-10 14:47:25,603 DEBUG   SenderThread:5660 [sender.py:send():176] send: run
+2021-05-10 14:47:26,102 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: run_start
+2021-05-10 14:47:26,218 DEBUG   HandlerThread:5660 [meta.py:__init__():39] meta init
+2021-05-10 14:47:26,218 DEBUG   HandlerThread:5660 [meta.py:__init__():53] meta init done
+2021-05-10 14:47:26,219 DEBUG   HandlerThread:5660 [meta.py:probe():210] probe
+2021-05-10 14:47:26,230 DEBUG   HandlerThread:5660 [meta.py:_save_pip():57] save pip
+2021-05-10 14:47:26,231 DEBUG   HandlerThread:5660 [meta.py:_save_pip():71] save pip done
+2021-05-10 14:47:26,232 DEBUG   HandlerThread:5660 [meta.py:probe():252] probe done
+2021-05-10 14:47:26,349 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:47:26,351 INFO    SenderThread:5660 [dir_watcher.py:__init__():168] watching files in: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files
+2021-05-10 14:47:26,351 INFO    SenderThread:5660 [sender.py:_start_run_threads():696] run started: 2dukc6gr with start time 1620679642
+2021-05-10 14:47:26,351 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:47:26,353 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:47:26,384 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:47:26,384 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-10 14:47:26,390 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:47:26,850 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:47:26,850 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\graph\graph_0_summary_bdaedffa.graph.json with policy now
+2021-05-10 14:47:26,852 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:47:26,853 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:47:27,363 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:47:27,364 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\graph\graph_0_summary_bdaedffa.graph.json
+2021-05-10 14:47:27,365 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\output.log
+2021-05-10 14:47:27,365 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media
+2021-05-10 14:47:27,366 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\graph
+2021-05-10 14:47:27,431 INFO    Thread-11 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\2omv2h57-wandb-metadata.json
+2021-05-10 14:47:27,842 INFO    Thread-12 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\115k49as-media/graph/graph_0_summary_bdaedffa.graph.json
+2021-05-10 14:47:32,840 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:47:33,206 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:47:33,432 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_0_c3ce50c2.table.json
+2021-05-10 14:47:33,433 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media
+2021-05-10 14:47:33,434 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:47:34,107 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:47:34,108 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:47:34,443 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:47:36,345 INFO    Thread-14 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\95\de967cf34674408eec5d6e134ef74a
+2021-05-10 14:47:38,631 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:47:38,631 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (training)_table_0_c3ce50c2.table.json with policy now
+2021-05-10 14:47:39,499 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:47:39,562 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:47:39,563 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:47:39,761 INFO    Thread-15 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\29nzq1wm-media/table/Confusion matrix (training)_table_0_c3ce50c2.table.json
+2021-05-10 14:47:40,515 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_0_98c09026.table.json
+2021-05-10 14:47:40,516 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:47:41,584 INFO    Thread-17 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\8c\ddf12808b02aba6f86887cc318ccc7
+2021-05-10 14:47:41,853 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:47:43,478 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:47:43,478 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (testing)_table_0_98c09026.table.json with policy now
+2021-05-10 14:47:43,480 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:47:44,458 DEBUG   SenderThread:5660 [sender.py:send():176] send: history
+2021-05-10 14:47:44,461 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:47:44,469 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:47:44,581 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:47:44,644 INFO    Thread-18 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\1snkbhcz-media/table/Confusion matrix (testing)_table_0_98c09026.table.json
+2021-05-10 14:47:51,712 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:47:51,713 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:47:52,898 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:47:53,231 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:47:53,676 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:47:53,676 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_1_97bef26f.table.json
+2021-05-10 14:47:53,679 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:47:55,214 INFO    Thread-20 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\f6\3699a7227d078f8bc45f78c8703d9f
+2021-05-10 14:47:56,923 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:47:56,924 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (training)_table_1_97bef26f.table.json with policy now
+2021-05-10 14:47:57,563 DEBUG   SenderThread:5660 [sender.py:send():176] send: stats
+2021-05-10 14:47:58,050 INFO    Thread-21 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\17rskxs3-media/table/Confusion matrix (training)_table_1_97bef26f.table.json
+2021-05-10 14:47:58,952 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:47:58,952 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:47:59,101 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:47:59,415 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:47:59,746 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_1_7243eb03.table.json
+2021-05-10 14:47:59,747 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:01,844 INFO    Thread-23 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\d6\ce5a5ebfd408866d4d40f4af45368d
+2021-05-10 14:48:03,780 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:48:03,780 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (testing)_table_1_7243eb03.table.json with policy now
+2021-05-10 14:48:04,758 DEBUG   SenderThread:5660 [sender.py:send():176] send: history
+2021-05-10 14:48:04,761 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:48:04,768 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:48:04,850 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:48:04,931 INFO    Thread-24 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\1a7eprkj-media/table/Confusion matrix (testing)_table_1_7243eb03.table.json
+2021-05-10 14:48:12,744 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:48:12,745 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:48:13,485 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:48:13,485 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:48:13,978 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_2_332aaab4.table.json
+2021-05-10 14:48:13,980 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:14,421 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:48:15,854 INFO    Thread-26 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\94\55abb9ed61948d37cf71bf4579a102
+2021-05-10 14:48:18,021 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:48:18,021 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (training)_table_2_332aaab4.table.json with policy now
+2021-05-10 14:48:18,024 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:48:18,900 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:48:18,900 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:48:19,040 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:48:19,040 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_2_a217c984.table.json
+2021-05-10 14:48:19,041 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:19,161 INFO    Thread-27 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\21w692xh-media/table/Confusion matrix (training)_table_2_332aaab4.table.json
+2021-05-10 14:48:21,102 INFO    Thread-29 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\26\4a1a12564bb973b289ad0cddc930e7
+2021-05-10 14:48:22,911 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:48:22,911 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (testing)_table_2_a217c984.table.json with policy now
+2021-05-10 14:48:23,915 DEBUG   SenderThread:5660 [sender.py:send():176] send: history
+2021-05-10 14:48:23,919 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:48:23,924 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:48:23,941 INFO    Thread-30 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\z8kj17h5-media/table/Confusion matrix (testing)_table_2_a217c984.table.json
+2021-05-10 14:48:24,098 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:48:30,960 DEBUG   SenderThread:5660 [sender.py:send():176] send: stats
+2021-05-10 14:48:31,197 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:48:31,688 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:48:31,700 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:48:31,700 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:48:32,195 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:48:32,195 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_3_873adbd0.table.json
+2021-05-10 14:48:32,197 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:33,491 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:48:34,721 INFO    Thread-32 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\c8\00387b18bd9b1585ba4551cb06c7b1
+2021-05-10 14:48:37,020 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:48:37,020 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (training)_table_3_873adbd0.table.json with policy now
+2021-05-10 14:48:37,022 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:48:37,257 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:48:37,998 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:48:37,998 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:48:38,166 INFO    Thread-33 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\2az3midp-media/table/Confusion matrix (training)_table_3_873adbd0.table.json
+2021-05-10 14:48:38,274 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_3_c12b2b89.table.json
+2021-05-10 14:48:38,275 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:40,113 INFO    Thread-35 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\cf\cfb8f556f3e3cfbee2d0c7a048891f
+2021-05-10 14:48:42,178 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:48:42,179 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (testing)_table_3_c12b2b89.table.json with policy now
+2021-05-10 14:48:43,168 DEBUG   SenderThread:5660 [sender.py:send():176] send: history
+2021-05-10 14:48:43,172 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:48:43,175 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:48:43,338 INFO    Thread-36 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\3osd5opo-media/table/Confusion matrix (testing)_table_3_c12b2b89.table.json
+2021-05-10 14:48:43,340 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:48:50,204 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:48:50,205 DEBUG   SenderThread:5660 [sender.py:send():176] send: config
+2021-05-10 14:48:50,697 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:48:50,697 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:48:51,420 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_4_a97d76f6.table.json
+2021-05-10 14:48:51,422 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:52,743 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-10 14:48:52,984 INFO    Thread-38 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\90\43d82a3fc2d759b1f478ede269e91b
+2021-05-10 14:48:55,312 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:48:55,312 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (training)_table_4_a97d76f6.table.json with policy now
+2021-05-10 14:48:55,314 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: stop_status
+2021-05-10 14:48:55,464 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:48:56,278 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-10 14:48:56,279 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: log_artifact
+2021-05-10 14:48:56,443 INFO    Thread-39 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\2ig4rrol-media/table/Confusion matrix (training)_table_4_a97d76f6.table.json
+2021-05-10 14:48:56,470 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_4_db0712a1.table.json
+2021-05-10 14:48:56,472 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table
+2021-05-10 14:48:58,524 INFO    Thread-41 :5660 [upload_job.py:push():91] Uploaded file C:\Users\TEC\.cache\wandb\artifacts\obj\md5\4e\0adc1b18b8dcb4a2ad1ae0f701f6d3
+2021-05-10 14:49:00,045 DEBUG   SenderThread:5660 [sender.py:send():176] send: files
+2021-05-10 14:49:00,045 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file media\table\Confusion matrix (testing)_table_4_db0712a1.table.json with policy now
+2021-05-10 14:49:01,079 DEBUG   SenderThread:5660 [sender.py:send():176] send: history
+2021-05-10 14:49:01,083 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:49:01,087 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:01,092 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:49:01,093 DEBUG   SenderThread:5660 [sender.py:send():176] send: telemetry
+2021-05-10 14:49:01,093 DEBUG   SenderThread:5660 [sender.py:send():176] send: exit
+2021-05-10 14:49:01,093 INFO    SenderThread:5660 [sender.py:send_exit():281] handling exit code: 0
+2021-05-10 14:49:01,093 INFO    SenderThread:5660 [sender.py:send_exit():289] send defer
+2021-05-10 14:49:01,094 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:01,094 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:01,095 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-10 14:49:01,095 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:01,096 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-10 14:49:01,096 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 1
+2021-05-10 14:49:01,096 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:01,096 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-10 14:49:01,146 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:01,146 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-10 14:49:01,147 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 2
+2021-05-10 14:49:01,147 DEBUG   SenderThread:5660 [sender.py:send():176] send: stats
+2021-05-10 14:49:01,148 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:01,149 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-10 14:49:01,149 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:01,149 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-10 14:49:01,149 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 3
+2021-05-10 14:49:01,150 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:01,150 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-10 14:49:01,153 DEBUG   SenderThread:5660 [sender.py:send():176] send: summary
+2021-05-10 14:49:01,157 INFO    SenderThread:5660 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-10 14:49:01,157 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:01,157 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-10 14:49:01,157 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 4
+2021-05-10 14:49:01,158 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:01,158 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-10 14:49:01,158 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:01,158 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-10 14:49:01,205 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:01,296 INFO    Thread-42 :5660 [upload_job.py:push():133] Uploaded file C:\Users\TEC\AppData\Local\Temp\tmp594kha48wandb\1nk2vfww-media/table/Confusion matrix (testing)_table_4_db0712a1.table.json
+2021-05-10 14:49:01,524 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:49:01,525 INFO    Thread-9  :5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\output.log
+2021-05-10 14:49:01,661 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 5
+2021-05-10 14:49:01,661 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:01,662 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:01,662 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-10 14:49:01,663 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:01,663 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-10 14:49:01,663 INFO    SenderThread:5660 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-10 14:49:01,776 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:02,533 INFO    SenderThread:5660 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:49:02,534 INFO    SenderThread:5660 [dir_watcher.py:finish():312] scan: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files
+2021-05-10 14:49:02,534 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml config.yaml
+2021-05-10 14:49:02,535 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\output.log output.log
+2021-05-10 14:49:02,536 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\requirements.txt requirements.txt
+2021-05-10 14:49:02,547 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-metadata.json wandb-metadata.json
+2021-05-10 14:49:02,547 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json wandb-summary.json
+2021-05-10 14:49:02,559 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\graph\graph_0_summary_bdaedffa.graph.json media\graph\graph_0_summary_bdaedffa.graph.json
+2021-05-10 14:49:02,559 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_0_98c09026.table.json media\table\Confusion matrix (testing)_table_0_98c09026.table.json
+2021-05-10 14:49:02,560 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_1_7243eb03.table.json media\table\Confusion matrix (testing)_table_1_7243eb03.table.json
+2021-05-10 14:49:02,560 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_2_a217c984.table.json media\table\Confusion matrix (testing)_table_2_a217c984.table.json
+2021-05-10 14:49:02,560 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_3_c12b2b89.table.json media\table\Confusion matrix (testing)_table_3_c12b2b89.table.json
+2021-05-10 14:49:02,560 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (testing)_table_4_db0712a1.table.json media\table\Confusion matrix (testing)_table_4_db0712a1.table.json
+2021-05-10 14:49:02,561 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_0_c3ce50c2.table.json media\table\Confusion matrix (training)_table_0_c3ce50c2.table.json
+2021-05-10 14:49:02,561 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_1_97bef26f.table.json media\table\Confusion matrix (training)_table_1_97bef26f.table.json
+2021-05-10 14:49:02,561 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_2_332aaab4.table.json media\table\Confusion matrix (training)_table_2_332aaab4.table.json
+2021-05-10 14:49:02,561 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_3_873adbd0.table.json media\table\Confusion matrix (training)_table_3_873adbd0.table.json
+2021-05-10 14:49:02,561 INFO    SenderThread:5660 [dir_watcher.py:finish():318] scan save: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\media\table\Confusion matrix (training)_table_4_a97d76f6.table.json media\table\Confusion matrix (training)_table_4_a97d76f6.table.json
+2021-05-10 14:49:02,562 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 6
+2021-05-10 14:49:02,562 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:02,563 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:02,563 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-10 14:49:02,563 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:02,563 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-10 14:49:02,564 INFO    SenderThread:5660 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-10 14:49:02,564 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 7
+2021-05-10 14:49:02,564 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:02,565 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-10 14:49:02,565 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:02,565 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-10 14:49:02,672 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:02,958 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 8
+2021-05-10 14:49:02,959 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:02,960 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:02,960 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-10 14:49:02,960 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:02,960 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-10 14:49:02,961 INFO    SenderThread:5660 [sender.py:send_request_defer():336] send defer: 9
+2021-05-10 14:49:02,961 DEBUG   SenderThread:5660 [sender.py:send():176] send: final
+2021-05-10 14:49:02,962 DEBUG   SenderThread:5660 [sender.py:send():176] send: footer
+2021-05-10 14:49:02,962 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: defer
+2021-05-10 14:49:02,962 INFO    HandlerThread:5660 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-10 14:49:02,963 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: defer
+2021-05-10 14:49:02,963 INFO    SenderThread:5660 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-10 14:49:03,071 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,071 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,179 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,180 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,288 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,289 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,399 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,399 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,508 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,509 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,620 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,621 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,670 INFO    Thread-44 :5660 [upload_job.py:push():133] Uploaded file c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\output.log
+2021-05-10 14:49:03,696 INFO    Thread-45 :5660 [upload_job.py:push():133] Uploaded file c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\requirements.txt
+2021-05-10 14:49:03,703 INFO    Thread-43 :5660 [upload_job.py:push():133] Uploaded file c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\config.yaml
+2021-05-10 14:49:03,731 INFO    Thread-46 :5660 [upload_job.py:push():133] Uploaded file c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\files\wandb-summary.json
+2021-05-10 14:49:03,733 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,733 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,844 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,845 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,956 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-10 14:49:03,957 DEBUG   SenderThread:5660 [sender.py:send_request():186] send_request: poll_exit
+2021-05-10 14:49:03,957 INFO    SenderThread:5660 [file_pusher.py:join():181] waiting for file pusher
+2021-05-10 14:49:03,959 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-10 14:49:03,965 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-10 14:49:03,968 DEBUG   HandlerThread:5660 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-10 14:49:03,969 INFO    HandlerThread:5660 [handler.py:finish():632] shutting down handler
+2021-05-10 14:49:03,971 INFO    WriterThread:5660 [datastore.py:close():258] close: c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_144722-2dukc6gr\run-2dukc6gr.wandb
+2021-05-10 14:49:04,964 INFO    SenderThread:5660 [sender.py:finish():925] shutting down sender
+2021-05-10 14:49:04,964 INFO    SenderThread:5660 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-10 14:49:04,964 INFO    SenderThread:5660 [file_pusher.py:join():181] waiting for file pusher
+2021-05-10 14:49:04,965 INFO    MainThread:5660 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2021-05-10T01:40:17.986264",
+    "startedAt": "2021-05-10T01:40:14.556725",
+    "docker": null,
+    "gpu": "NVS 5200M",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"c9e04e5e-f331-4de8-a075-bbcb52ed94e3\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\Steven\\AppData\\Local\\Temp\\tmp-47564CMuRUPDT1ja.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Stevenpach10/ML.git",
+        "commit": "7d5df5a6eb2fe7ad3cd9a1e0cf5d2712ca61e3cd"
+    },
+    "email": "stevenpach10@gmail.com",
+    "root": "C:/Users/Steven/Documents/Github/ML",
+    "host": "DESKTOP-EU4L4NS",
+    "username": "Steven",
+    "executable": "C:\\Python39\\python.exe"
+}

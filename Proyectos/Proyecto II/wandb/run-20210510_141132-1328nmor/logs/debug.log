@@ -1,0 +1,52 @@
+2021-05-10 14:11:32,506 INFO    MainThread:7276 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-10 14:11:32,507 INFO    MainThread:7276 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-10 14:11:32,507 INFO    MainThread:7276 [wandb_setup.py:_flush():69] setting login settings: {'api_key': 'c39ee7c1346fe8a475784b325687e53a46644ee4'}
+2021-05-10 14:11:32,508 INFO    MainThread:7276 [wandb_init.py:_log_setup():336] Logging user logs to c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_141132-1328nmor\logs\debug.log
+2021-05-10 14:11:32,508 INFO    MainThread:7276 [wandb_init.py:_log_setup():337] Logging internal logs to c:\Users\TEC\Documents\GitHub\ML\Proyectos\Proyecto II\wandb\run-20210510_141132-1328nmor\logs\debug-internal.log
+2021-05-10 14:11:32,510 INFO    MainThread:7276 [wandb_init.py:init():369] calling init triggers
+2021-05-10 14:11:32,510 INFO    MainThread:7276 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'epochs': 21, 'learningRate': 0.0001, 'batchSize': 32, 'inputSize': 256, 'fc_size_1': 256, 'fc_size_2': 128, 'fc_size_3': 64, 'fc_size_4': 32, 'fc_size_5': 16, 'fc_size_6': 8, 'outputSize': 4, 'classes': ['COVID', 'Lung Opacity', 'Normal', 'Viral Pneumonia'], 'classesLen': 4, 'upSampling': False, 'name': 'WithoutUpsampling_32Batch'}
+2021-05-10 14:11:32,510 INFO    MainThread:7276 [wandb_init.py:init():389] re-initializing run, found existing run on stack: 3ixszmdu
+2021-05-10 14:11:32,513 INFO    MainThread:7276 [wandb_run.py:finish():1197] finishing run tecai/MLP/3ixszmdu
+2021-05-10 14:11:32,514 INFO    MainThread:7276 [jupyter.py:save_history():320] not saving jupyter history
+2021-05-10 14:11:32,514 INFO    MainThread:7276 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-05-10 14:11:32,514 INFO    MainThread:7276 [wandb_init.py:_jupyter_teardown():268] cleaning up jupyter logic
+2021-05-10 14:11:32,514 INFO    MainThread:7276 [wandb_run.py:_atexit_cleanup():1524] got exitcode: 0
+2021-05-10 14:11:33,300 INFO    MainThread:7276 [wandb_run.py:_restore():1496] restore
+2021-05-10 14:11:33,320 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 8
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 13280
+  total_bytes: 13280
+}
+
+2021-05-10 14:11:38,426 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:11:43,550 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:11:48,670 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:11:53,790 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:11:58,900 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:04,016 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:09,140 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:14,260 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:19,374 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:24,491 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:29,610 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:34,730 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:39,850 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:44,972 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:50,095 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:12:55,213 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:00,337 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:05,462 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:10,577 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:15,705 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:20,825 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:25,951 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:31,077 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:36,198 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:41,321 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:46,445 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
+2021-05-10 14:13:51,561 INFO    MainThread:7276 [wandb_run.py:_wait_for_finish():1646] got exit ret: None
