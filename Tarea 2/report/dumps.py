@@ -1,5 +1,6 @@
 from matplotlib import pyplot as plt
 import matplotlib.animation as animation
+import tkinter
 import csv
 import numpy as np
 

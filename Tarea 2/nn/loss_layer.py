@@ -5,10 +5,16 @@ import numpy as np
 #implements a log loss layer
 class loss_layer(op):
 
-    def __init__(self, i_size, o_size, func_acti, func_loss):
+    def __init__(self, i_size, o_size, func_acti, func_acti_grad, func_loss, func_loss_grad):
         super(loss_layer, self).__init__(i_size, o_size)
         self.func_acti = func_acti
         self.func_loss = func_loss
+
+        if func_acti == softmax:
+            self.func_backward = crossEntropySoftmax
+        else:
+            self.func_backward = lambda x, y : func_acti_grad(x) * func_loss_grad(self.o, y)
+
 
     def forward(self, x):
         self.x = x
@@ -17,12 +23,16 @@ class loss_layer(op):
 
     #alpha is used as reward in some reinforcement learning envs
     def backward(self, y, rewards=None):
-        one_hot = np.zeros(self.o.shape)
-        one_hot[np.arange(self.o.shape[0]), y] = 1
-        if rewards is not None:
-            self.grads = (one_hot - self.o) * rewards
+        if self.func_acti == softmax:
+            one_hot = np.zeros(self.o.shape)
+            one_hot[np.arange(self.o.shape[0]), y] = 1
         else:
-            self.grads = one_hot - self.o
+            one_hot = y
+
+        if rewards is not None:
+            self.grads = self.func_backward(self.o, one_hot) * rewards
+        else:
+            self.grads = self.func_backward(self.o, one_hot)
 
     def loss(self, y):
         one_hot = np.zeros(self.o.shape, dtype=np.int)

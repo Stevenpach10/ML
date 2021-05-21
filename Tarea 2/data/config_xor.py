@@ -11,7 +11,7 @@ hidden_shapes = [2]
 lr = 0.085
 has_dropout=False
 dropout_perc=0.5
-output_log = "runs/xor_log.txt"
+output_log = "xor_log.txt"
 #XOR dataset - baseline to check backprop, update and forward calculations
 ds_train = dataset(np.array([[0,0], [0,1], [1,0], [1,1]]), np.array([0,1,1,0]), batch_size)
 ds_test = dataset(np.array([[0,0], [0,1], [1,0], [1,1]]), np.array([0,1,1,0]), batch_size)

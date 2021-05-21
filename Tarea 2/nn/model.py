@@ -4,7 +4,7 @@ from nn.dense import dense
 import numpy as np
 
 class model():
-    def __init__(self, input_size, output_size, hidden_shapes, func_acti, func_acti_grad, func_acti_loss_layer, func_loss_loss_layer, has_dropout=True, dropout_perc=0.5):
+    def __init__(self, input_size, output_size, hidden_shapes, func_acti, func_acti_grad, func_acti_loss_layer , func_acti_loss_layer_grad, func_loss_loss_layer, func_loss_loss_layer_grad, has_dropout=True, dropout_perc=0.5):
         assert(len(hidden_shapes) > 0), "NN must have at least 1 hidden layer!"
         self.input_size = input_size
         self.output_size = output_size
@@ -13,15 +13,15 @@ class model():
         self.hidden_layers = []
         self.has_dropout = has_dropout
         self.dropout_perc = dropout_perc
-        self.populate_layers(func_acti, func_acti_grad, func_acti_loss_layer, func_loss_loss_layer)
+        self.populate_layers(func_acti, func_acti_grad, func_acti_loss_layer, func_acti_loss_layer_grad, func_loss_loss_layer, func_loss_loss_layer_grad)
 
 
-    def populate_layers(self, func_acti, func_acti_grad, func_acti_loss_layer, func_loss_loss_layer):
+    def populate_layers(self, func_acti, func_acti_grad, func_acti_loss_layer, func_acti_loss_layer_grad, func_loss_loss_layer, func_loss_loss_layer_grad):
         i_size = self.input_size
         for i in range(0, self.hidden_amount):
             self.hidden_layers.append(dense(i_size, self.hidden_shapes[i], func_acti, func_acti_grad))
             i_size = self.hidden_shapes[i]
-        self.loss_layer = loss_layer(i_size, self.output_size, func_acti_loss_layer, func_loss_loss_layer)
+        self.loss_layer = loss_layer(i_size, self.output_size, func_acti_loss_layer, func_acti_loss_layer_grad, func_loss_loss_layer, func_loss_loss_layer_grad)
 
     def forward(self, x, y, train=True):
         self.dropout_masks = []

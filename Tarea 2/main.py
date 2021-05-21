@@ -1,9 +1,12 @@
+
 from data.config import *
 from data.dataset import *
 from report.dumps import *
 from nn.model import model
 from nn.funcs import *
+
 import numpy as np
+
 
 def test(ds, verbose=False, phase="Validation"):
     ds.reset()
@@ -65,7 +68,8 @@ hp = hyperparams(ConfigEnum.XOR)
 
 #model has number of inputs, number of outputs, and list with sizes of hidden layers
 #requires at least 1 hidden layer, else fails assert
-nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, softmax, crossEntropyLoss, has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
+nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, softmax, None, crossEntropyLoss, None,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
+#nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, tanh, tanh_grad, MSE, MSE_grad,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
 
 val_hist = historian()
 train_hist = historian()

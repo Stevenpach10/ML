@@ -6,6 +6,7 @@ def sigmoid(x):
 def sigmoid_grad(s):
     return s * (1.0 - s)
 
+
 def relu(x):
     return x * (x > 0)
 
@@ -43,8 +44,13 @@ def crossEntropyLoss(x, y):
 
 # MSE
 def MSE(x, y):
-    1/x.shape[0] * np.sum((x - y) ** 2)
+    return 1/x.shape[0] * np.sum((x - y) ** 2)
 
 # MSE dev
 def MSE_grad(probs, y):
-    2/probs.shape[0] * (probs - y)
+    return 2/probs.shape[0] * (probs - y)
+
+# CrossEntropyLoss and Softmax derivates
+
+def crossEntropySoftmax(x, y):
+    return y - x
