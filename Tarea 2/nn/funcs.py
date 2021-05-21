@@ -12,6 +12,15 @@ def relu(x):
 def  relu_grad(x):
     return 1.0 * (x > 0)
 
+# Tanh
+def tanh(x):
+    return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x))
+
+# Tanh dev
+def tanh_grad(s):
+    return 1 - s ** 2
+
+
 #with numerical stability
 def softmax(x):
     exp_x = np.exp(x - np.max(x, axis=-1, keepdims=True))
@@ -27,3 +36,15 @@ def logloss_grad(probs, y):
 
 def batch_hits(x, y):
     return np.sum(np.argmax(x, axis=1) == y)
+
+# Cross Enttropy Loss
+def crossEntropyLoss(x, y):
+    return -np.mean(np.sum(y * np.log(x + 1e-15), axis=1))
+
+# MSE
+def MSE(x, y):
+    1/x.shape[0] * np.sum((x - y) ** 2)
+
+# MSE dev
+def MSE_grad(probs, y):
+    2/probs.shape[0] * (probs - y)

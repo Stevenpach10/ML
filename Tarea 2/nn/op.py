@@ -10,6 +10,7 @@ class op():
         self._xavier_init()
         self.o = np.zeros(o_size)
         self.x = None #will be assigned during forward
+        self.grads = np.zeros((o_size, i_size))
 
     def _xavier_init(self):
         self.W = np.random.randn(self.i_size, self.o_size) / np.sqrt(self.i_size)

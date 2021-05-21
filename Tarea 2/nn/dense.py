@@ -6,7 +6,6 @@ class dense(op):
 
     def __init__(self, i_size, o_size, func_acti, func_acti_grad):
         super(dense, self).__init__(i_size, o_size)
-        self.grads = np.zeros((o_size, i_size))
         self.func_acti = func_acti
         self.func_acti_grad = func_acti_grad
 
