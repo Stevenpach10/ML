@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 def sinFunction():
-    x = np.linspace(-np.pi, np.pi, 201)
+    x = np.linspace(-np.pi, np.pi, 500)
     y = np.sin(x)
 
     x = np.array([[x_barra] for x_barra in x])
@@ -14,10 +14,10 @@ def sinFunction():
 #hyperparameters
 batch_size = 25
 validate_every_no_of_batches = 8
-epochs = 2500
+epochs = 50
 input_size = 1
 output_size = 1
-hidden_shapes = [100]
+hidden_shapes = [50]
 lr = 0.0085
 has_dropout=True
 dropout_perc=0.5

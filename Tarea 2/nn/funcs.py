@@ -15,7 +15,7 @@ def  relu_grad(x):
 
 # Tanh
 def tanh(x):
-    return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x))
+    return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x) + 0.0000001)
 
 # Tanh dev
 def tanh_grad(s):

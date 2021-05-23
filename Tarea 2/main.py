@@ -15,7 +15,6 @@ def test(ds, verbose=False, phase="Validation"):
     while not(ds.iter_done()):
         x, y = ds.next()
         o, batch_loss = nn.forward(x, y, train=False)
-        print(o)
         hits += batch_hits(o, y)
         mean_loss += np.mean(batch_loss)
         #if verbose:
@@ -90,7 +89,7 @@ test(hp.ds_test, verbose=True, phase="Test")
 
 y_test = nn.predict(hp.ds_test.x)
 print(y_test.shape)
-plt.plot(hp.ds_test.x, y_test)
+plt.scatter(hp.ds_test.x, y_test)
 plt.show()
 #nnplotter.view(val_hist, train_hist) #see results on plot
 logger.close()
