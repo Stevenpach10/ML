@@ -76,6 +76,8 @@ def train(nn, hp, val_hist, train_hist, logger):
 #nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, tanh, tanh_grad, softmax, None, 
 #crossEntropyLoss, None,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
 
+#Luis con esto plotea los de clasificación
+#nnplotter.view(val_hist, train_hist) #see results on plot
 #This is for a regression problem.
 hp = hyperparams(ConfigEnum.SIN)
 nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, tanh, tanh_grad, tanh, tanh_grad, 
@@ -87,11 +89,13 @@ logger = nnlogger(hp.output_log, ("Epoch", "Phase", "Iteration", "Accuracy", "Lo
 train(nn, hp, val_hist, train_hist, logger)
 test(hp.ds_test, verbose=True, phase="Test")
 
+
+#Luis con esto plotea el resultado de la regresión
 y_test = nn.predict(hp.ds_test.x)
 print(y_test.shape)
 plt.scatter(hp.ds_test.x, y_test)
 plt.show()
-#nnplotter.view(val_hist, train_hist) #see results on plot
+
 logger.close()
 
 
