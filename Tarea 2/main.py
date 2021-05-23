@@ -62,21 +62,37 @@ def train(nn, hp, val_hist, train_hist, logger):
     return val_hist
 
 #load hyperparameters and settings according to dataset enum
-hp = hyperparams(ConfigEnum.XOR)
+#hp = hyperparams(ConfigEnum.XOR)
 #hp = hyperparams(ConfigEnum.IRIS)
 #hp = hyperparams(ConfigEnum.MNIST)
 
 #model has number of inputs, number of outputs, and list with sizes of hidden layers
 #requires at least 1 hidden layer, else fails assert
-nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, softmax, None, crossEntropyLoss, None,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
-#nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, tanh, tanh_grad, MSE, MSE_grad,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
+
+#This is the base model
+#nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, softmax, None, 
+#crossEntropyLoss, None,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
+
+#This is adding the TANH activation Function to the model.
+#nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, tanh, tanh_grad, softmax, None, 
+#crossEntropyLoss, None,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
+
+#This is for a regression problem.
+hp = hyperparams(ConfigEnum.SIN)
+nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, tanh, tanh_grad, tanh, tanh_grad, 
+MSE, MSE_grad,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
 
 val_hist = historian()
 train_hist = historian()
 logger = nnlogger(hp.output_log, ("Epoch", "Phase", "Iteration", "Accuracy", "Loss") )
 train(nn, hp, val_hist, train_hist, logger)
 test(hp.ds_test, verbose=True, phase="Test")
-nnplotter.view(val_hist, train_hist) #see results on plot
+
+y_test = nn.predict(hp.ds_test.x)
+print(y_test.shape)
+plt.plot(hp.ds_test.x, y_test)
+plt.show()
+#nnplotter.view(val_hist, train_hist) #see results on plot
 logger.close()
 
 

@@ -9,11 +9,10 @@ class loss_layer(op):
         super(loss_layer, self).__init__(i_size, o_size)
         self.func_acti = func_acti
         self.func_loss = func_loss
-
         if func_acti == softmax:
             self.func_backward = crossEntropySoftmax
         else:
-            self.func_backward = lambda x, y : func_acti_grad(x) * func_loss_grad(self.o, y)
+            self.func_backward = lambda x, y : func_acti_grad(np.dot(self.x, self.W) + self.b) * func_loss_grad(self.o, y)  
 
 
     def forward(self, x):
@@ -23,6 +22,7 @@ class loss_layer(op):
 
     #alpha is used as reward in some reinforcement learning envs
     def backward(self, y, rewards=None):
+        
         if self.func_acti == softmax:
             one_hot = np.zeros(self.o.shape)
             one_hot[np.arange(self.o.shape[0]), y] = 1
@@ -33,9 +33,12 @@ class loss_layer(op):
             self.grads = self.func_backward(self.o, one_hot) * rewards
         else:
             self.grads = self.func_backward(self.o, one_hot)
-
     def loss(self, y):
-        one_hot = np.zeros(self.o.shape, dtype=np.int)
-        one_hot[np.arange(self.o.shape[0]), y] = 1
+        if self.func_acti == softmax:
+            one_hot = np.zeros(self.o.shape, dtype=np.int)
+            one_hot[np.arange(self.o.shape[0]), y] = 1
+        else:
+            one_hot = y
+        
         #fixed_section = np.nan_to_num((1 - one_hot) * np.log(1 - self.o))
         return self.func_loss(self.o, one_hot)

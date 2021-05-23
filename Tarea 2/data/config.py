@@ -1,5 +1,5 @@
 class ConfigEnum:
-    XOR, IRIS, MNIST = range(3)
+    XOR, IRIS, MNIST, SIN = range(4)
 
 #factory-like class which produces different configs for each dataset tested
 class hyperparams():
@@ -9,6 +9,8 @@ class hyperparams():
             import data.config_xor as config
         elif config_enum==ConfigEnum.IRIS:
             import data.config_iris as config
+        elif config_enum==ConfigEnum.SIN:
+            import data.config_sin as config
         else:
             import data.config_mnist as config
         self.config = config
