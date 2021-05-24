@@ -47,8 +47,8 @@ def MSE(x, y):
     return 1/x.shape[0] * np.sum((x - y) ** 2)
 
 # MSE dev
-def MSE_grad(probs, y):
-    res = 2/probs.shape[0] * (probs - y)
+def MSE_grad(y, probs):
+    res = 2/y.shape[0] * (y - probs)
     return res
 
 # CrossEntropyLoss and Softmax derivates

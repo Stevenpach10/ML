@@ -13,11 +13,11 @@ def sinFunction():
 #hyperparameters
 batch_size = 32
 validate_every_no_of_batches = 300
-epochs = 1000
+epochs = 10000
 input_size = 1
 output_size = 1
-hidden_shapes = [200, 200, 100]
-lr = 0.01
+hidden_shapes = [100, 100]
+lr = 0.02
 has_dropout=False
 dropout_perc=0.5
 output_log = r"runs/sin_log.txt"
