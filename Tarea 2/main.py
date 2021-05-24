@@ -34,7 +34,6 @@ def train(nn, hp, val_hist, train_hist, logger):
         cur_trained = 0
         while not(hp.ds_train.iter_done()):
             x, y = hp.ds_train.next()
-            #print(y)
             o, batch_loss = nn.forward(x, y)
             nn.backward(y,o)
             nn.update(hp.lr)
@@ -76,11 +75,10 @@ def train(nn, hp, val_hist, train_hist, logger):
 #nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, tanh, tanh_grad, softmax, None, 
 #crossEntropyLoss, None,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
 
-#Luis con esto plotea los de clasificación
-#nnplotter.view(val_hist, train_hist) #see results on plot
+
 #This is for a regression problem.
 hp = hyperparams(ConfigEnum.SIN)
-nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, tanh, tanh_grad, tanh, tanh_grad, 
+nn = model(hp.input_size, hp.output_size, hp.hidden_shapes, sigmoid, sigmoid_grad, tanh, tanh_grad, 
 MSE, MSE_grad,  has_dropout=hp.has_dropout, dropout_perc=hp.dropout_perc)
 
 val_hist = historian()
@@ -88,13 +86,26 @@ train_hist = historian()
 logger = nnlogger(hp.output_log, ("Epoch", "Phase", "Iteration", "Accuracy", "Loss") )
 train(nn, hp, val_hist, train_hist, logger)
 test(hp.ds_test, verbose=True, phase="Test")
-
+#Luis con esto plotea los de clasificación
+#nnplotter.view(val_hist, train_hist) #see results on plot
 
 #Luis con esto plotea el resultado de la regresión
 y_test = nn.predict(hp.ds_test.x)
-print(y_test.shape)
-plt.scatter(hp.ds_test.x, y_test)
+plt.subplot(211)
+plt.scatter(hp.ds_test.x, hp.ds_test.y, label='label')
+plt.scatter(hp.ds_test.x, y_test, label='predict')
+plt.xlabel('#')
+plt.ylabel('Sin value')
+plt.legend()
+plt.subplot(212)
+plt.scatter(hp.ds_test.x, hp.ds_test.y - y_test, label='error')
+plt.legend()
 plt.show()
+logger.close()
+
+print(hp.ds_test.x[0])
+print(hp.ds_test.y[0])
+print(nn.predict(hp.ds_test.x[0]))
 
 logger.close()
 

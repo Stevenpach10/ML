@@ -15,12 +15,12 @@ def  relu_grad(x):
 
 # Tanh
 def tanh(x):
-    return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x) + 0.0000001)
+    return np.tanh(x)
 
 # Tanh dev
+#TANH (mx +b)
 def tanh_grad(s):
-    return 1 - s ** 2
-
+    return 1 - np.tanh(s) ** 2
 
 #with numerical stability
 def softmax(x):
@@ -48,7 +48,8 @@ def MSE(x, y):
 
 # MSE dev
 def MSE_grad(probs, y):
-    return 2/probs.shape[0] * (probs - y)
+    res = 2/probs.shape[0] * (probs - y)
+    return res
 
 # CrossEntropyLoss and Softmax derivates
 
