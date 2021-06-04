@@ -4,3 +4,5 @@ wandb/**
 runs/**
 models/**
 maps/**
+checkpoints/**
+INTERRUPTED.pth
