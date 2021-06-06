@@ -4,3 +4,7 @@ wandb/**
 runs/**
 models/**
 maps/**
+checkpoints/**
+INTERRUPTED.pth
+cavana/**
+saved_images/**
