@@ -9,3 +9,4 @@ INTERRUPTED.pth
 cavana/**
 saved_images/**
 my_checkpoint.pth.tar
+model.pth.tar
